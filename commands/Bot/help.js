@@ -26,7 +26,7 @@ const help = new Discord.MessageEmbed()
 
 .addField('**<a:yp_NitroBoostGold:791587647717507123> Bot and Config**' , '`prefix`,`language`,`botinfo`,`devsuggest`,`help`,`invite`,`ping`,`restart`,`eval`,`ping`,`supportserver`')
 
-.addField('**<a:yp_NitroBoostGold:791587647717507123> Features**' , '`goodbye`, `welcome`, `anti-ghostping`, `auto-logs(soon)`')
+.addField('**<a:Eagle_money:803279413549465620> Features**' , '`goodbye`, `welcome`, `anti-ghostping`, `auto-logs(soon)`')
 
 .addField('**Help us!**' , `\nIf you want to help us please use the following links\n\n<a:R_Arrow:783934395698249801> <a:redBadge:792301502474879016>[Support server](https://discord.gg/Bpr5qeYAQG) | <a:redBadge:792301502474879016>[Invite](https://discord.com/api/oauth2/authorize?client_id=755985276873998486&permissions=8&scope=bot) | <a:redBadge:792301502474879016>[Vote](https://top.gg/) <a:L_Arrow:783934419017662474>`)
 .setAuthor('Akemi', client.user.displayAvatarURL() , 'https://discord.com/oauth2/authorize?client_id=755985276873998486&permissions=8&scope=bot')
