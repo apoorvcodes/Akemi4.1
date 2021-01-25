@@ -10,8 +10,8 @@ const client = new Discord.Client();
 client.events = new Discord.Collection();
 client.commands = new Discord.Collection();
 client.data = require("./database/MongoDB.js");
-client.logger = require("./Modules/Logger.js");
-client.tools = require("./Modules/Tools.js");
+client.logger = require("./modules/Logger.js");
+client.tools = require("./modules/Tools.js");
 
 async function startUp(){
 
