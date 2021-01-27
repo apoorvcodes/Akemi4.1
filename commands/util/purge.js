@@ -6,7 +6,7 @@ module.exports = {
   usage: "",
   enabled: true,
   aliases: ['purge'],
-  memberPermissions: [""],
+  memberPermissions: ["MANAGE_MESSAGES"],
   botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
   nsfw: false,
   cooldown: 3000,
