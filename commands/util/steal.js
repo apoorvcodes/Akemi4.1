@@ -6,7 +6,7 @@ module.exports = {
     usage: "",
     enabled: true,
     aliases: [''],
-    memberPermissions: [""],
+    memberPermissions: ["MANAGE_EMOJIS"],
     botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
     nsfw: false,
     cooldown: 3000,
