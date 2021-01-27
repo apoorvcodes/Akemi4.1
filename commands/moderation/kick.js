@@ -1,13 +1,12 @@
 const Discord = require('discord.js')
-
 module.exports = {
   name: "kick",
   description: "",
   usage: "",
   enabled: true,
   aliases: [''],
-  memberPermissions: [""],
-  botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
+  memberPermissions: ["KICK_MEMBERS"],
+  botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS","KICK_MEMBERS" ],
   nsfw: false,
   cooldown: 3000,
   ownerOnly: false,
