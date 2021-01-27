@@ -1,7 +1,10 @@
 module.exports = async(client) => {
 try {
-
-  client.user.setPresence({ activity: { name: `${client.guilds.cache.size} servers | ${client.users.cache.size} users `, type: "WATCHING" }, status: "idle" });
+  setInterval(function() {
+    const activities = [`${client.users.cache.size} users | ${client.guilds.cache.size} servers` ];
+		const activity = activities[Math.floor(Math.random() * activities.length)];
+		client.user.setActivity(activity, { type: "WATCHING" });
+	}, 5000);
   client.logger.ready(`${client.user.tag} is now up and running!`);
 
 } catch (e) {
