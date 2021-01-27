@@ -6,7 +6,7 @@ const AmeAPI = new AmeClient(AME_API);
 
 
 module.exports = {
-  name: "challanger",
+  name: "challenger",
     description: "",
     usage: "",
     enabled: true,
