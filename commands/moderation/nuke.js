@@ -3,11 +3,6 @@ const Discord = require('discord.js');
 module.exports = {
     name: "nuke",
     description: "",
-const Discord = require('discord.js');
-
-module.exports = {
-    name: "nuke",
-    description: "",
     usage: "",
     enabled: true,
     aliases: [''],
