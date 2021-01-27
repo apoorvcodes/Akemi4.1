@@ -18,7 +18,7 @@ const help = new Discord.MessageEmbed()
 
 .addField('**<a:Setting:784057539653271582> Moderation**' , '`kick`,`ban`,`unban`,`nuke`,`ticket`,`close`,`tickethelp`,`lock on`,`lock off`')
 
-.addField('**<a:purple:784060300977897493> Utility**' , '`avatar`,`steal`,`deletemoji`,`dm`,`embedc`,`enlarge`,`poll`,`purge`, `urban`, `shorten`, `docs`,`yt`')
+.addField('**<a:purple:784060300977897493> Utility**' , '`avatar`,`steal`,`deletemoji`,`embedc`,`enlarge`,`poll`,`purge`, `urban`, `shorten`, `docs`,`yt`')
 
 .addField('**<a:WhiteHeart:783934288126672897> Fun**' , '`8ball`,`challeger`,`howgay`,`gif`,`joke`,`kill`,`master`,`meme`,`mock`,`pepe`,`rate`,`respect`,`say`,`scary`,`wallpaper`,`wasted`, `random-urban`')
 
