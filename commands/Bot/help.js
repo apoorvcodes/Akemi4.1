@@ -24,7 +24,7 @@ const help = new Discord.MessageEmbed()
 
 .addField('**<a:Insta:799278150106087464> Information and others**' , '`anime`,`movie`,`covid[all]`,`covid[country]`,`emojis`,`roleinfo`,`serverinfo`,`userinfo`,`channelinfo`,`github`,`instagram`,`weather`,`manga`')
 
-.addField('**<a:yp_NitroBoostGold:791587647717507123> Bot and Config**' , '`prefix`,`language`,`botinfo`,`devsuggest`,`help`,`invite`,`ping`,`restart`,`eval`,`ping`,`supportserver`')
+.addField('**<a:yp_NitroBoostGold:791587647717507123> Bot and Config**' , '`prefix`,`language`,`botinfo`,`devsuggest`,`help`,`invite`,`ping`,`restart`,`eval`,`ping`,`server`')
 
 .addField('**<a:Eagle_money:803279413549465620> Features**' , '`goodbye`, `welcome`, `anti-ghostping`, `auto-logs(soon)`')
 
