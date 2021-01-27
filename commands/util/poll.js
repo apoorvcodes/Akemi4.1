@@ -7,7 +7,7 @@ module.exports = {
     usage: "",
     enabled: true,
     aliases: [''],
-    memberPermissions: [" ADMIMISTRATOR"],
+    memberPermissions: [" ADMINISTRATOR"],
     botPermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
     nsfw: false,
     cooldown: 3000,
