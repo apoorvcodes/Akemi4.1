@@ -21,7 +21,7 @@ module.exports = {
         .setTitle("Suggestion")
         .setDescription(bug)
         .setColor('#9b6dff');
-        const channnel = '796672648083013652'
+        const channnel = '806528735494930462'
     client.channels.cache.get(channnel).send(embed)
         .catch(console.error);
 
