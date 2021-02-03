@@ -16,7 +16,7 @@ module.exports = {
   
   
   async execute(client, message, args, data) {
-    const channel = '796672451899031563';
+    const channel = '806528783939141632';
     let bugText = args.join(" ");
     if (!bugText) return message.reply("I can't send an empty bug report!");
     message.reply("Thank you for submitting a bug, hopefully it won't require major surgery :grimacing:");
