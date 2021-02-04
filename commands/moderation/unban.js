@@ -28,7 +28,7 @@ module.exports = {
 
     const reason = args[1] ? args.slice(1).join(' ') : 'no reason';
 
-    const embed = new MessageEmbed()
+    const embed = new Discord.MessageEmbed()
         .setFooter(`${message.author.tag} | ${message.author.id}`, message.author.displayAvatarURL({ dynamic: true }));
 
     message.guild.fetchBans().then( bans => {
