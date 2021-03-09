@@ -33,7 +33,7 @@ module.exports = {
       .setDescription(`${details.biography
       }`)
       .setThumbnail(details.profile_pic_url)
-      .setColor('#9b6dff')
+      .setColor('00FFDB')
       .addFields(
           {
               name: "Total Posts:",
