@@ -19,7 +19,7 @@ module.exports = {
           description: `**Please Give Me A Github Username!**`
       }
   })
-// Made by Zukii
+// Made by tofu
   fetch(`https://api.github.com/users/${args.join('-')}`)
     .then(res => res.json()).then(body => {
       if(body.message) return message.channel.send({
