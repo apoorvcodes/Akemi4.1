@@ -11,10 +11,22 @@ module.exports = {
   nsfw: false,
   cooldown: 3000,
   ownerOnly: true,
-     async execute(client, message, args, data) {
-    var result = message.content.split(" ").slice(1).join(" ")
-    let evaled = eval(result);
-    console.log(result)
-message.channel.send(evaled)
+  
+      if(message.author.id !== "786077329377853460") return;
+      try {
+        const code = args.join(" ");
+        let evaled = eval(code);
+  
+        if (typeof evaled !== "string")
+          evaled = require("util").inspect(evaled);
+  
+        message.channel.send((evaled), {code:"xl"});
+      } catch (err) {
+        message.channel.send(`\`ERROR\` \`\`\`xl\n${(err)}\n\`\`\``);
+      }
+    
+     
+    
+
 
   }}
