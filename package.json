@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "amethyste-api": "^1.1.4",
-    "chalk": "^5.0.0",
+    "chalk": "4.1.0",
     "cpu-stat": "^2.0.1",
     "discord.js": "^12.1.1",
     "discord.js-avatar": "^1.0.0",
