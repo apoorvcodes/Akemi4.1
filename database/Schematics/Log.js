@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 module.exports = mongoose.model("Log", new mongoose.Schema({
-
     //Storing information about each command that is ran
     commandName: { type: String, default: "unknown" },
     date: { type: Number, default: Date.now() },

@@ -43,7 +43,7 @@ module.exports = {
       
       
       channel.send(embed).then(m => {
-        m.react("<a:redBadge:792301502474879016>")
+        m.react("")
       
       }).catch(err => {})
       

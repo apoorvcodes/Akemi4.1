@@ -22,11 +22,11 @@ module.exports = {
     const embed = new Discord.MessageEmbed()
         .setColor(message.guild.me.roles.highest.hexColor)
         .setTitle('Role Info')
-        .addField('<a:redBadge:792301502474879016>Name', `${role.name}`)
-        .addField('<a:redBadge:792301502474879016>Role-ID', `${role.id}`)
-        .addField('<a:redBadge:792301502474879016>Hex Color', `${role.hexColor.toUpperCase()}`)
-        .addField('<a:redBadge:792301502474879016>Created at', `${role.createdAt.toDateString()}`)
-        .addField('<a:redBadge:792301502474879016>Mentionable', `${role.mentionable ? 'Yes' : 'No'}`)
+        .addField('Name', `${role.name}`)
+        .addField('Role-ID', `${role.id}`)
+        .addField('Hex Color', `${role.hexColor.toUpperCase()}`)
+        .addField('Created at', `${role.createdAt.toDateString()}`)
+        .addField('Mentionable', `${role.mentionable ? 'Yes' : 'No'}`)
         
        
        

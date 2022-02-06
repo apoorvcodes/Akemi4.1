@@ -29,7 +29,7 @@ module.exports = {
   }
   
   const embed = new MessageEmbed()
-      .setTitle(`<a:redBadge:792301502474879016>${details.is_verified ? `${details.username} <a:green_tick:756545075592429618>` : ` ${details.username}`} ${details.is_private ? '🔒' : ''} `)
+      .setTitle(`${details.is_verified ? `${details.username} <a:green_tick:756545075592429618>` : ` ${details.username}`} ${details.is_private ? '🔒' : ''} `)
       .setDescription(`${details.biography
       }`)
       .setThumbnail(details.profile_pic_url)

@@ -46,16 +46,16 @@ module.exports = {
 				.setDescription(`Here is the general server info for ${message.guild}`)
 				.setColor("9b6dff")
 				.addFields(
-					{ name: `<a:redBadge:792301502474879016>Guild Owner`, value: `${message.guild.owner}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Creation Date`, value: `${message.guild.createdAt}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Region`, value: `${message.guild.region}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Channel Catgories`, value: categoryi, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Text Channels`, value: textchanneli, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Voice Channels`, value: voicechanneli, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Membercount`, value: `${message.guild.memberCount}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Rolecount`, value: `${message.guild.roles.cache.size}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Emojicount`, value: `${message.guild.emojis.cache.size}`, inline: true },
-					{ name: `<a:redBadge:792301502474879016>Server Roles`, value: rolemap },
+					{ name: `Guild Owner`, value: `${message.guild.owner}`, inline: true },
+					{ name: `Creation Date`, value: `${message.guild.createdAt}`, inline: true },
+					{ name: `Region`, value: `${message.guild.region}`, inline: true },
+					{ name: `Channel Catgories`, value: categoryi, inline: true },
+					{ name: `Text Channels`, value: textchanneli, inline: true },
+					{ name: `Voice Channels`, value: voicechanneli, inline: true },
+					{ name: `Membercount`, value: `${message.guild.memberCount}`, inline: true },
+					{ name: `Rolecount`, value: `${message.guild.roles.cache.size}`, inline: true },
+					{ name: `Emojicount`, value: `${message.guild.emojis.cache.size}`, inline: true },
+					{ name: `Server Roles`, value: rolemap },
 				)
 				.setFooter(message.client.user.username, message.client.user.displayAvatarURL());
 			message.channel.send(serverinfoembed), message.react('✅');

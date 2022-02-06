@@ -20,7 +20,7 @@ module.exports = {
         let gayrateEmbed = new Discord.MessageEmbed()
             .setTitle("Gayrate Machine")
             .setColor("#9b6dff")
-            .setDescription("<a:redBadge:792301502474879016>You are `" + gayrate + "%` gay! <a:Gay:792050648513249300>")
+            .setDescription("You are `" + gayrate + "%` gay! <a:Gay:792050648513249300>")
             .setFooter(message.client.user.username, message.client.user.avatarURL())
         message.channel.send(gayrateEmbed).catch(e => {
             console.log(e)
@@ -29,7 +29,7 @@ module.exports = {
         let argsEmbed = new Discord.MessageEmbed()
             .setTitle("Gayrate Machine")
             .setColor("RANDOM")
-            .setDescription(`<a:redBadge:792301502474879016>${User.user.username} is \`${gayrate}%\` gay! <a:Gay:792050648513249300>`)
+            .setDescription(`${User.user.username} is \`${gayrate}%\` gay! <a:Gay:792050648513249300>`)
             .setFooter(message.client.user.username, message.client.user.avatarURL())
         message.channel.send(argsEmbed).catch(e => {
             console.log(e)

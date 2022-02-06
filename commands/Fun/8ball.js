@@ -28,7 +28,7 @@ else {
     responses[Math.floor(Math.random() * responses.length - 1)];
   let Embed = new Discord.MessageEmbed()
     .setTitle(`Question`)
-    .setDescription(`<a:redBadge:792301502474879016>My Ai Think answer is ${response}`)
+    .setDescription(`My Ai Think answer is ${response}`)
     .setFooter(message.client.user.username, message.client.user.displayAvatarURL())
     .setColor(`#9b6dff`);
   message.channel.send(Embed);
