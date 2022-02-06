@@ -28,7 +28,7 @@ const help = new Discord.MessageEmbed()
 
 .addField('**Features**' , '`goodbye`, `welcome`, `anti-ghostping`, `auto-logs(soon)`')
 
-.addField('**Help us!**' , `\nIf you want to help us please use the following links\n\n<a:R_Arrow:783934395698249801> [Support server](https://discord.gg/Bpr5qeYAQG) | [Invite](https://discord.com/api/oauth2/authorize?client_id=755985276873998486&permissions=8&scope=bot) | [Vote](https://top.gg/) <a:L_Arrow:783934419017662474>`)
+.addField('**Help us!**' , `\nIf you want to help us please use the following links\n [Support server](https://discord.gg/Bpr5qeYAQG) | [Invite](https://discord.com/api/oauth2/authorize?client_id=755985276873998486&permissions=8&scope=bot) | [Vote](https://top.gg/) `)
 .setAuthor('Akemi', client.user.displayAvatarURL() , 'https://discord.com/oauth2/authorize?client_id=755985276873998486&permissions=8&scope=bot')
 
 
